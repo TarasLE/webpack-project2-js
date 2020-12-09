@@ -1,16 +1,15 @@
-import MainPageTemplate from '../templates/Main.hbs';
+import StartPageTemplate from '../templates/start_page.hbs';
 
 import {
-  ROOT_DOM,
   headerItemRef,
   homeRef
-} from '../constants';
+} from '../constants/variables';
 
 const refs = {};
 let buttonsArrRef = [];
 
 function renderBaseMarkup() {
-  ROOT_DOM.innerHTML = MainPageTemplate();
+  ROOT_DOM.innerHTML = StartPageTemplate();
 }
 function MainPage() {
   renderBaseMarkup();

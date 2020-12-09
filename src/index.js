@@ -1,7 +1,7 @@
-import './styles.css';
+import './sass/main.css';
 
 import Router from './utilites/router';
-import MainPage from './pages/mainPage';
+import startPage from './pages/startPage';
 
 
 import initScrollToTop from './utilites/scrollToTop';
@@ -18,7 +18,7 @@ window['router'] = new Router({
     {
       path: '',
       callback: () => {
-        MainPage();
+        startPage();
       },
     },
   ],
