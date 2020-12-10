@@ -8,6 +8,7 @@ import initNavigation from './utilites/navigation';
 import navigateToTeamPage from './utilites/navigateToTeamPage';
 
 import './utilites/header';
+// import './templates/modal_header-search.hbs';
 // navigateToTeamPage();
 // initNavigation();
 // initScrollToTop();
